@@ -1,4 +1,3 @@
-use std::collections::HashSet;
 use std::io::{self, Read};
 
 fn main() {
@@ -6,6 +5,7 @@ fn main() {
     io::stdin().read_to_string(&mut path).expect("Invalid input");
     
     // (0, -1) is North.
+    let mut pos = (0i32, 0i32);
     let mut delta = (0i32, -1i32);
 
     for step in path.split(", ") {
