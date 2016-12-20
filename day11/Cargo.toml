@@ -1,0 +1,8 @@
+[package]
+name = "day11"
+version = "0.1.0"
+authors = ["Mike Welsh <mwelsh@gmail.com>"]
+
+[dependencies]
+fixedbitset = "0.1.5"
+regex = "0.1"
