@@ -22,6 +22,7 @@ fn main() {
                     cursor.next();
                 }
                 cursor.next();
+
             }
             num_elves -= 1;
         }
